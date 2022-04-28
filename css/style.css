@@ -1,0 +1,72 @@
+.api-left {
+    padding-top: 9rem;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+.box label {
+    font-weight: 600;
+}
+.box input {
+    width: 30rem;
+    padding: 1.3rem 1rem;
+    border: none;
+    background-color: #ecf0f1;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.wrapper {
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.table {
+    background-color: #ecf0f1;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.table-header {
+    background-color: #aebbbc;
+    border-radius: 1rem;
+}
+.title {
+    padding: 1rem;
+}
+.table-content td {
+    padding: 1.5rem 2rem;
+}
+.API-title {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+/* --------------------------------buttons------------------------- */
+.submit-btn {
+    margin-top: 1rem;
+    padding: 1rem 2.5rem;
+    background-color: #d86f13;
+}
+.sub-btn {
+    padding-top: 1rem;
+    text-align: center;
+}
+.submit-btn:hover {
+    background-color: #bf671a;
+}
+.edit-btn, .delete-btn {
+    padding: 1rem;
+}
+.edit-btn {
+    background-color: #2980b9;
+}
+.delete-btn {
+    background-color: #e74c3c;
+}
+.edit-btn:hover {
+    background-color: #2272a7;
+}
+.delete-btn:hover {
+    background-color: #ca4031;
+}
