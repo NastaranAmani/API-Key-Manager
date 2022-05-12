@@ -1,5 +1,5 @@
 .api-left {
-    padding-top: 9rem;
+    padding-top: 8rem;
 }
 .box {
     display: flex;
@@ -55,11 +55,12 @@
 .submit-btn:hover {
     background-color: #bf671a;
 }
-.edit-btn, .delete-btn {
+.delete-btn {
     padding: 1rem;
 }
 .edit-btn {
     background-color: #2980b9;
+    padding: 1rem 1.7rem;
 }
 .delete-btn {
     background-color: #e74c3c;
@@ -70,3 +71,41 @@
 .delete-btn:hover {
     background-color: #ca4031;
 }
+
+
+/* ----------------------responsive-------------------------  */
+
+@media screen and (max-width: 1024px) {
+    .wrapper
+    {
+        flex-direction: column;
+    }
+    .api-left {
+        padding: 0;
+    }
+    .api-right {
+        padding: 5rem 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .api-left {
+        padding: 0;
+    }
+      .buttons {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 0.5rem;
+      }
+      table, tbody, td { 
+		display: inline-block; 
+	}
+    .table-header th:nth-child(5) {
+        display: none;
+    }
+    .api-right {
+        padding-bottom: 5rem;
+    }
+ }
